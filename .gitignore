@@ -1,6 +1,5 @@
 # build files #
 compiled/
-dist/
 .history/
 
 # Node Files #
