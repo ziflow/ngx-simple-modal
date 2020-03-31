@@ -1,6 +1,6 @@
 {
-  "name": "ngx-simple-modal",
-  "version": "1.4.11",
+  "name": "@ziflow/ngx-simple-modal",
+  "version": "1.4.12",
   "description": "A simple unopinionated framework to implement simple modal based behaviour in angular (v2+) projects.",
   "repository": {
     "type": "git",
@@ -62,14 +62,14 @@
     "preset": "jest-preset-angular",
     "setupTestFrameworkScriptFile": "<rootDir>/src/tests/jest.ts"
   },
-  "main": "bundles/ngx-simple-modal.umd.js",
-  "module": "fesm5/ngx-simple-modal.js",
-  "es2015": "fesm2015/ngx-simple-modal.js",
-  "esm5": "esm5/ngx-simple-modal.js",
-  "esm2015": "esm2015/ngx-simple-modal.js",
-  "fesm5": "fesm5/ngx-simple-modal.js",
-  "fesm2015": "fesm2015/ngx-simple-modal.js",
-  "typings": "ngx-simple-modal.d.ts",
-  "metadata": "ngx-simple-modal.metadata.json",
+  "main": "bundles/ziflow-ngx-simple-modal.umd.js",
+  "module": "fesm5/ziflow-ngx-simple-modal.js",
+  "es2015": "fesm2015/ziflow-ngx-simple-modal.js",
+  "esm5": "esm5/ziflow-ngx-simple-modal.js",
+  "esm2015": "esm2015/ziflow-ngx-simple-modal.js",
+  "fesm5": "fesm5/ziflow-ngx-simple-modal.js",
+  "fesm2015": "fesm2015/ziflow-ngx-simple-modal.js",
+  "typings": "ziflow-ngx-simple-modal.d.ts",
+  "metadata": "ziflow-ngx-simple-modal.metadata.json",
   "sideEffects": false
 }
