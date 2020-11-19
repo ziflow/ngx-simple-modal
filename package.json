@@ -1,6 +1,6 @@
 {
   "name": "@ziflow/ngx-simple-modal",
-  "version": "1.4.14",
+  "version": "1.4.12",
   "description": "A simple unopinionated framework to implement simple modal based behaviour in angular (v2+) projects.",
   "scripts": {
     "demo-ng5": "cd demo-ng5 && npm i && ng serve",
@@ -43,9 +43,9 @@
   "author": "Kevin Jones <him@kevincjones.co.uk> (kevcjones)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kevcjones/ngx-simple-modal/issues"
+    "url": "https://github.com/ziflow/ngx-simple-modal/issues"
   },
-  "homepage": "https://github.com/kevcjones/ngx-simple-modal#readme",
+  "homepage": "https://github.com/ziflow/ngx-simple-modal#readme",
   "dependencies": {},
   "devDependencies": {
     "@angular/animations": "8.0.3",
