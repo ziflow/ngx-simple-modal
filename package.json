@@ -1,5 +1,5 @@
 {
-  "name": "ngx-simple-modal",
+  "name": "@ziflow/ngx-simple-modal",
   "version": "1.4.14",
   "description": "A simple unopinionated framework to implement simple modal based behaviour in angular (v2+) projects.",
   "scripts": {
