@@ -83,13 +83,13 @@ export class SimpleModalWrapperComponent implements OnDestroy {
       }
     };
 
-    containerEl.addEventListener('click', this.clickOutsideCallback, false);
+    containerEl.addEventListener('mousedown', this.clickOutsideCallback, false);
   }
 
   ngOnDestroy() {
     if (this.clickOutsideCallback) {
       const containerEl = this.wrapper.nativeElement;
-      containerEl.removeEventListener('click', this.clickOutsideCallback, false);
+      containerEl.removeEventListener('mousedown', this.clickOutsideCallback, false);
       this.clickOutsideCallback = null;
     }
   }
