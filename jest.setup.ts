@@ -1,3 +1,5 @@
+require('jest-preset-angular/setup-jest');
+
 const mock = () => {
   let storage = {};
   return {
