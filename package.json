@@ -59,7 +59,6 @@
     "@angular/platform-server": "8.0.3",
     "@types/jest": "^19.2.4",
     "@types/node": "^6.0.102",
-    "codelyzer": "^4.0.1",
     "fs-extra": "^5.0.0",
     "jest": "^20.0.3",
     "jest-preset-angular": "^2.0.2",
