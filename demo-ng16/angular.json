@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/ngx-simple-modal/styles/simple-modal.css",
               "src/styles.css"
             ],
             "scripts": []

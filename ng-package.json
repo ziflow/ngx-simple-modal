@@ -1,6 +1,14 @@
 {
   "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+  "assets": [
+    {
+      "input": "./src/styles",
+      "glob": "**/*.css",
+      "output": "./"
+    }
+  ],
   "lib": {
-    "entryFile": "src/index.ts"
+    "entryFile": "src/index.ts",
+    "styleIncludePaths": ["./src/styles"]
   }
 }
