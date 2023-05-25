@@ -1,9 +1,8 @@
 import {
   Component,
   ComponentFactoryResolver,
-  ElementRef,
+  ElementRef, Injector,
   OnDestroy,
-  ReflectiveInjector,
   Type,
   ViewChild,
   ViewContainerRef,
@@ -62,7 +61,7 @@ export class SimpleModalWrapperComponent implements OnDestroy {
    */
   addComponent<T, T1>(component: Type<SimpleModalComponent<T, T1>>) {
     const factory = this.resolver.resolveComponentFactory(component);
-    const injector = ReflectiveInjector.fromResolvedProviders([], this.viewContainer.injector);
+    const injector = Injector.create({ providers: [], parent: this.viewContainer.injector });
     const componentRef = factory.create(injector);
     this.viewContainer.insert(componentRef.hostView);
     this.content = <SimpleModalComponent<T, T1>>componentRef.instance;

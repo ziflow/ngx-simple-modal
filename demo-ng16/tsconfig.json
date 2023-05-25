@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true
+  },
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "module": "es2020",
+    "moduleResolution": "node",
+    "target": "es2018",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["./node_modules/@types"],
+    "lib": ["es2018", "dom"],
+    "baseUrl": "./src",
+    "skipLibCheck": true,
+    "rootDir": ".",
+    "outDir": "./dist/out-tsc"
+  }
+}

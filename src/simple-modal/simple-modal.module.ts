@@ -27,7 +27,6 @@ import {
     },
   ],
   imports: [CommonModule],
-  entryComponents: [SimpleModalHolderComponent, SimpleModalWrapperComponent],
 })
 export class SimpleModalModule {
   static forRoot(
