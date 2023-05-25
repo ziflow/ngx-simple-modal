@@ -11,7 +11,4 @@ npm-debug.log
 .idea/
 .vscode/
 
-package-lock.json
-
-.npmrc
 /.vs
