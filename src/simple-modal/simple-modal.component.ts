@@ -1,4 +1,4 @@
-import { ElementRef, HostListener, OnDestroy } from '@angular/core';
+import { Component, ElementRef, HostListener, OnDestroy } from '@angular/core';
 import { Observable, Observer, Subject, BehaviorSubject } from 'rxjs';
 
 import { SimpleModalOptions } from './simple-modal-options';
@@ -13,6 +13,9 @@ export interface OnDestroyLike {
  * @template T - modal data;
  * @template T1 - modal result
  */
+@Component({
+  template: '',
+})
 export abstract class SimpleModalComponent<T, T1> {
   /**
    * Observer to return result from modal
